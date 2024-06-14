@@ -1,0 +1,78 @@
+/** @format */
+
+.contact .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 4rem auto;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.contact .container-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 4rem auto;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.watchlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact .left {
+  padding: 1rem;
+}
+
+.contact .left p {
+  padding: 0.3rem;
+}
+
+.contact h1 {
+  padding: 1rem 0;
+}
+
+.contact img {
+  max-width: 80%;
+  margin: auto;
+}
+
+.btn-staking {
+  margin: 1rem 0;
+  width: 50%;
+}
+
+.watch-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.watch-list .list {
+  min-height: 300px;
+}
+
+@media screen and (max-width: 940px) {
+  .contact .container {
+    grid-template-columns: 1fr;
+    margin: 1rem 0;
+  }
+
+  .btn-staking {
+    margin: 1rem 0;
+    width: 100%;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  #checkbox {
+    width: 5%;
+  }
+}
